@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>cPrimerito</RootNamespace>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <ApplicationIcon>SHELL4.ico</ApplicationIcon>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <RunAnalyzersDuringBuild>false</RunAnalyzersDuringBuild>
+    <OptionCompare>Text</OptionCompare>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>D:\Compartido\Paquetes_VB_NET\</OutputPath>
+    <Optimize>false</Optimize>
+  </PropertyGroup>
+
+</Project>
